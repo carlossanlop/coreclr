@@ -39,13 +39,13 @@
     <PackageReference Include="Microsoft.Private.CoreFx.OOB" Version="4.7.0-rtm.19564.4" />
 
     <!-- dotnet.exe -->
-    <PackageReference Include="Microsoft.NETCore.DotNetHost" Version="$(MicrosoftNETCoreAppVersion)" />
+    <PackageReference Include="Microsoft.NETCore.DotNetHost" Version="$(ProductVersion)" />
 
     <!-- hostfxr.dll -->
-    <PackageReference Include="Microsoft.NETCore.DotNetHostResolver" Version="$(MicrosoftNETCoreAppVersion)" />
+    <PackageReference Include="Microsoft.NETCore.DotNetHostResolver" Version="$(ProductVersion)" />
 
     <!-- hostpolicy.dll -->
-    <PackageReference Include="Microsoft.NETCore.DotNetHostPolicy" Version="$(MicrosoftNETCoreAppVersion)" />
+    <PackageReference Include="Microsoft.NETCore.DotNetHostPolicy" Version="$(ProductVersion)" />
 
   </ItemGroup>
 
